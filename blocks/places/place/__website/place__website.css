@@ -1,0 +1,9 @@
+.place__website{
+    width: 100%;
+}
+@media screen and (max-width:767px){
+    .place__website{
+        width: 90%;
+        margin: 0 auto 32px auto;
+    }
+}

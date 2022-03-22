@@ -1,0 +1,23 @@
+.place{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10% 90%;
+    grid-template-areas: 
+    "title url"
+    "image paragraph";
+    gap:3%;
+    margin-bottom: 80px;
+}
+@media screen and (max-width:767px){
+    .place{
+      display: flex;
+      flex-direction: column;
+    }
+}
+@media screen and (min-width:1024px){
+    .place{
+        grid-template-rows: 15% 85%;
+    }
+}
+
