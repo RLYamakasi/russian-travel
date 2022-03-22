@@ -8,7 +8,9 @@
     margin: 0 auto;
     justify-content: center;
     background-size: 100% 100%;
-
+}
+.cover:hover{
+    background-image: url(../../images/cover\ but\ black.png);
 }
 
 @media screen and (max-width:1079px){
