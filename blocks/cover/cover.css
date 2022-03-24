@@ -1,4 +1,5 @@
 .cover{
+    position: relative;
     display: flex;
     flex-direction: column;
     background-image: url(../../images/cover.png);
@@ -9,8 +10,19 @@
     justify-content: center;
     background-size: 100% 100%;
 }
-.cover:hover{
-    background-image: url(../../images/cover\ but\ black.png);
+.cover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: black;
+    opacity: 0.3;
+
+}
+.cover:hover::before{
+    opacity: 0.8;
 }
 
 @media screen and (max-width:1079px){
