@@ -4,17 +4,13 @@
     line-height: 76px;
     text-align: center;
     margin: 0 auto;
-    width: 50%;
+    max-width: 560px;
     z-index: 1;
 }
-@media screen and (max-width:1023px){
-    .cover__title{
-        width: 70%;
-    }
-}
+
 @media screen and (max-width:767px){
     .cover__title{
-        width: 80%;
+        max-width: 288px;
         font-size: 2em;
         line-height: 35px;
     }

@@ -3,7 +3,7 @@
     font-size:  1.125em;
     line-height: 22px;
     text-align: center;
-    width: 30%;
+    max-width: 360px;
     margin: 0 auto;
     z-index: 1;
     text-decoration: none;
@@ -12,6 +12,6 @@
     .cover__subtitle{
     font-size: 0.9em;
     line-height: 16px;
-    width: 70%;
+    max-width: 288px;
     }
 }
