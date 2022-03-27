@@ -1,0 +1,10 @@
+.footer__ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:767px){
+    .footer__ul{
+        display: block;
+    }
+}
