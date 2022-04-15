@@ -1,0 +1,8 @@
+.profile-info__subtitle{
+    grid-area: subtitle;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+    margin: 0;
+    max-width: 336px;
+}

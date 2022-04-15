@@ -1,0 +1,17 @@
+.profile__info{
+    grid-area: info;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    "title  edit-button"
+    "subtitle  .";
+    margin-left: 1.5vw;
+
+}
+@media screen and (max-width: 767px) {
+    .profile__info{
+        grid-template-columns: 3fr 1fr;
+        text-align: center;
+        justify-self: center;
+    }
+}

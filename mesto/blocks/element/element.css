@@ -1,0 +1,16 @@
+.element{
+    display:grid;
+    grid-template-areas:
+    "img img"
+    "img img"
+    "text button";
+    grid-template-rows: 2fr 2fr 1fr;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px){
+    .element{
+        grid-template-columns: 0.8fr;
+    }
+}

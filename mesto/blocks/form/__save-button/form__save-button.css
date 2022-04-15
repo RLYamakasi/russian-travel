@@ -1,0 +1,14 @@
+.form__save-button{
+    cursor:pointer;
+    margin-top: 6vh;
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__save-button:hover{
+    background-color: rgba(0,0,0, 0.8);
+}
